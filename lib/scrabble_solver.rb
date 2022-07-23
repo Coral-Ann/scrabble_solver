@@ -22,6 +22,7 @@ class Scrabble
       @total << 4 if @points[:four].include? letter
       @total << 5 if @points[:five].include? letter
       @total << 8 if @points[:eight].include? letter
+      @total << 10 if @points[:ten].include? letter
     end
     @total.sum
   end
