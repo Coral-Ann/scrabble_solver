@@ -18,6 +18,7 @@ class Scrabble
     @word.split('').each do |letter|
       @total << 1 if @points[:one].include? letter
       @total << 2 if @points[:two].include? letter
+      @total << 3 if @points[:three].include? letter
     end
     @total.sum
   end
