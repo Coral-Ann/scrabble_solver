@@ -47,11 +47,11 @@ Tech Stack
 Planned Tests
 ---
 
-- A, E, I, O, U, L, N, R, S, T should all be equal to 1 point.
-- D, G should both be equal to 2 points.
-- B, C, M, P should all be equal to 3 points.
-- F, H, V, W, Y should all be equal to 4 points.
+- A should be equal to 1 point.
+- D should be equal to 2 points.
+- B should be equal to 3 points.
+- F should be equal to 4 points.
 - K should be equal to 5 points.
-- J, X should both be equal to 8 points.
-- Q, Z should both be equal to 10 points.
-- Letters worth should all be summed up to equal the correct amount.
+- J should be equal to 8 points.
+- Q should be equal to 10 points.
+- Letters total should all be summed up to equal the correct amount.
