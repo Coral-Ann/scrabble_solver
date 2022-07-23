@@ -37,12 +37,15 @@ describe Scrabble do
       subject = Scrabble.new('Q')
       expect(subject.score).to eq 10
     end
-  end
 
-  describe '#sum' do
     it 'should correctly sum A and D together' do
       subject = Scrabble.new('AD')
       expect(subject.score).to eq 3
+    end
+
+    it 'should correctly sum multiple letters together' do
+      subject = Scrabble.new('EGCHKXZ')
+      expect(subject.score).to eq 33
     end
   end
 end
