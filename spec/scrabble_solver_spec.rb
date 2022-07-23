@@ -17,6 +17,11 @@ describe Scrabble do
       subject = Scrabble.new('B')
       expect(subject.score).to eq 3
     end
+
+    it 'should correctly apply 4 points to F' do
+      subject = Scrabble.new('F')
+      expect(subject.score).to eq 4
+    end
   end
 
   describe '#sum' do
