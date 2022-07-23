@@ -33,7 +33,7 @@ Setup
 
 It should look like this:
 
-<div><img src="https://i.imgur.com/6N8Pl47.png" width="350"></div>
+<div><img src="https://i.imgur.com/6N8Pl47.png" width="600"></div>
 
 
 Tech Stack
